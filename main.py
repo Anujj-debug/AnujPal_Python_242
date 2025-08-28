@@ -76,3 +76,21 @@ print(a)
 print(len(a))
 print(a[4])
 
+#check string
+txt = "The best things in life are free!"
+print("free" in txt)
+
+text = "The best things in life are freee!"
+print("best" not in text)
+
+#Slicing String
+b = "Hello,World"
+print(b[2:5])  #end is exclusive
+print(b[:3])
+print(b[-5:-2]) #end is inclusive and start is exclusive
+
+#Modify strings
+a = "    Hello , World!    "
+print(a.upper())
+print(a.lower())
+print(a.strip()) #removes the extra whitespaces
