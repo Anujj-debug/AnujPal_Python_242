@@ -63,3 +63,16 @@ print(type(var1))
 print(type(var2))
 print(type(var3))
 print(type(var4))
+
+#string datatypes
+print("hello")
+print('Hello')
+#Multiline string
+a = """Lorem feffdfdfdffef,
+ffdfdfefefeffffwfwfwfwff,
+wfefwwfefwefefefefwff"""
+print(a)
+
+print(len(a))
+print(a[4])
+
